@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/custom_border_curved"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:id="@+id/purchaseImageCancel"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/purchaseImageCancel"
+        android:id="@+id/purchaseProductCancel"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:id="@+id/purchasePriceCancel"
+        android:layout_toRightOf="@id/purchaseImageCancel"
+        android:layout_below="@+id/purchaseProductCancel"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:id="@+id/purchaseQuantityCancel"
+        android:layout_toRightOf="@id/purchaseImageCancel"
+        android:layout_below="@+id/purchasePriceCancel"/>
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="16dp"
+        android:id="@+id/purchaseTimeCancel"
+        android:layout_toRightOf="@id/purchaseImageCancel"
+        android:layout_below="@+id/purchaseQuantityCancel"/>
+
+
+</RelativeLayout>

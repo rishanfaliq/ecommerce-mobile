@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishan.rishan.Models.card_details">
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="230dp"
+        android:id="@+id/itemImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/itemName"
+        android:layout_below="@id/itemImage"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+    android:layout_width="150dp"
+    android:layout_height="30dp"
+
+    android:text="Credit Card Number:"
+    android:id="@+id/creditCardNumber"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/itemImage"
+    android:layout_marginTop="60dp"
+  />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="CVV :"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/cvv"
+        android:layout_below="@+id/creditCardNumber"/>
+
+    <TextView
+        android:id="@+id/expiryDate"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/cvv"
+        android:text="Expiry Date :" />
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/productTextPurchase"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/creditCardNumber"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/itemImage"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/productPriceText"
+        android:layout_toRightOf="@id/creditCardNumber"
+android:layout_below="@id/productTextPurchase"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/productDesciptionText"
+        android:layout_toRightOf="@id/creditCardNumber"
+     android:layout_below="@id/productPriceText"
+        />
+
+</RelativeLayout>

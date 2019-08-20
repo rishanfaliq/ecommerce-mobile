@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/checkoutFragment"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:text="Total Price:"
+        android:id="@+id/checkoutTotal"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/checkoutTotal"
+        android:id="@+id/checkoutTotalText"/>
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:text="Total Products:"
+        android:layout_below="@+id/checkoutTotal"
+        android:id="@+id/checkoutQuantity"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/checkoutTotal"
+        android:layout_toRightOf="@id/checkoutQuantity"
+        android:id="@+id/checkoutQuantityText"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:elevation="4dp"
+    >
+    <ToggleButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="315dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/wite"
+        android:layout_alignParentRight="true"
+        android:id="@+id/favourites"
+        android:text=""
+
+        />
+</android.support.v7.widget.Toolbar>

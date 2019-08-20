@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rishan.rishan.Models.card_details">
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:id="@+id/shippingCost"
+        android:layout_below="@id/itemImage"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+
+        android:text="Contact Number:"
+        android:id="@+id/contactNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/shippingCost"
+        android:layout_marginTop="60dp"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="Country: "
+        android:layout_alignParentLeft="true"
+        android:id="@+id/country"
+        android:layout_below="@+id/contactNumber"/>
+
+    <TextView
+        android:id="@+id/ShippingAddress"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/country"
+        android:text="Shippin Address :" />
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/contactNumberText"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@id/contactNumber"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/shippingCost"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/ShippingAddressText"
+        android:layout_toRightOf="@id/contactNumber"
+        android:layout_below="@id/countryText"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/countryText"
+        android:layout_toRightOf="@id/contactNumber"
+        android:layout_below="@id/contactNumberText"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/areaCode"
+        android:layout_toRightOf="@id/contactNumber"
+        android:layout_below="@id/ShippingAddressText"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:text="Area Code"
+        android:layout_below="@id/ShippingAddress"
+        />
+</RelativeLayout>
